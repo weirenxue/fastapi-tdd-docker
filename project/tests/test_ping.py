@@ -8,5 +8,4 @@ def test_ping(test_app: TestClient):
         "environment": "dev",
         "ping": "pong!",
         "testing": True,
-        "database_url": "postgres://postgres:postgres@web-db:5432/web_test",
     }
