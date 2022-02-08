@@ -80,7 +80,7 @@ jobs:
     needs: [build, test]
     env:
       HEROKU_APP_NAME: pure-lake-94414
-      HEROKU_REGISTRY_IMGE: registry.heroku.com/${HEROKU_APP_NAME}/summarizer
+      HEROKU_REGISTRY_IMAGE: registry.heroku.com/${HEROKU_APP_NAME}/summarizer
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
